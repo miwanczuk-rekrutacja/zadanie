@@ -1,0 +1,38 @@
+.counter {
+  color: #333333;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 10px 20px 0 0;
+}
+
+.button {
+  background-color: rgb(124, 205, 255);
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+.button:hover {
+  background-color: rgb(100, 195, 254);
+}
+
+.button:disabled {
+  background-color: rgb(200, 200, 200);
+}
+
+.buttonError {
+  background-color: rgb(255, 110, 110);
+} 
+
+.buttonError:hover {
+  background-color: rgb(255, 90, 90);
+} 
+
+.failureInfo {
+  color: red;
+  display: block;
+  margin: 20px auto 10px auto;
+}

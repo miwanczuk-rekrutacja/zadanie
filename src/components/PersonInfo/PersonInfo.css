@@ -1,0 +1,61 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+    background: #fff;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.container:hover {
+    padding: 30px 32px;
+    border: 2px solid pink;
+}
+
+.selected {
+    border: 2px solid rgb(255, 165, 180);
+}
+
+.mainData {
+    display: flex;
+}
+
+.initials {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.firstNameLastName {
+    /* padding: 0 0 10px; */
+    color: #333333;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+.jobTitle {
+    /* padding: 0 0 20px; */
+    color: #e74c3c;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+  
+.emailAddress {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.8em;
+}
